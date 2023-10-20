@@ -1,0 +1,11 @@
+C:\Users\Ernesto Amaral\Desktop\ci shart\lp-webService\bin\Debug\lp-webService.exe.config
+C:\Users\Ernesto Amaral\Desktop\ci shart\lp-webService\bin\Debug\lp-webService.exe
+C:\Users\Ernesto Amaral\Desktop\ci shart\lp-webService\bin\Debug\lp-webService.pdb
+C:\Users\Ernesto Amaral\Desktop\ci shart\lp-webService\obj\Debug\lp-webService.csproj.AssemblyReference.cache
+C:\Users\Ernesto Amaral\Desktop\ci shart\lp-webService\obj\Debug\lp-webService.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ernesto Amaral\Desktop\ci shart\lp-webService\obj\Debug\lp_webService.Properties.Resources.resources
+C:\Users\Ernesto Amaral\Desktop\ci shart\lp-webService\obj\Debug\lp-webService.csproj.GenerateResource.cache
+C:\Users\Ernesto Amaral\Desktop\ci shart\lp-webService\obj\Debug\lp-webService.csproj.CoreCompileInputs.cache
+C:\Users\Ernesto Amaral\Desktop\ci shart\lp-webService\obj\Debug\lp-webService.exe
+C:\Users\Ernesto Amaral\Desktop\ci shart\lp-webService\obj\Debug\lp-webService.pdb
+C:\Users\Ernesto Amaral\Desktop\ci shart\lp-webService\obj\Debug\lp_webService.designWScalc.resources
