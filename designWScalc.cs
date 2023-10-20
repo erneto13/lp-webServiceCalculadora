@@ -1,4 +1,4 @@
-﻿using lp_webService.ServiceReference;
+using lp_webService.ServiceReference;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -20,10 +20,12 @@ namespace lp_webService
             InitializeComponent();
         }
 
+        // Se hace la instancia global
+        // Instancia del proxy para el web service
+        ServiceReference.CalculatorSoapClient calculadora = new ServiceReference.CalculatorSoapClient();
+
         private void btnSumar_Click(object sender, EventArgs e)
         {
-            // Instancia del proxy para el web service
-            ServiceReference.CalculatorSoapClient calculadora = new ServiceReference.CalculatorSoapClient();
 
             // Verificar que no haya cadena vacía en el txtNúmeroA & txtNúmeroB
             if (string.IsNullOrEmpty(txtNumeroA.Text) ) {
@@ -55,8 +57,6 @@ namespace lp_webService
 
         private void btnRestar_Click(object sender, EventArgs e)
         {
-            // Instancia del proxy para el web service
-            ServiceReference.CalculatorSoapClient calculadora = new ServiceReference.CalculatorSoapClient();
 
             if (string.IsNullOrEmpty(txtNumeroA.Text))
             {
@@ -88,8 +88,6 @@ namespace lp_webService
 
         private void btnMultiplicar_Click(object sender, EventArgs e)
         {
-            // Instancia del proxy para el web service
-            ServiceReference.CalculatorSoapClient calculadora = new ServiceReference.CalculatorSoapClient();
 
             if (string.IsNullOrEmpty(txtNumeroA.Text))
             {
@@ -121,9 +119,6 @@ namespace lp_webService
 
         private void btnDividir_Click(object sender, EventArgs e)
         {
-            // Instancia del proxy para el web service
-            ServiceReference.CalculatorSoapClient calculadora = new ServiceReference.CalculatorSoapClient();
-
             if (string.IsNullOrEmpty(txtNumeroA.Text))
             {
                 MessageBox.Show("Rellena el campo del Número A.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
